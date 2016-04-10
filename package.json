@@ -1,0 +1,32 @@
+{
+  "name": "node-javascriptcore",
+  "version": "0.0.1",
+  "description": "webkit javascriptcore js engine",
+  "main": "install.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "install": "node install.js"
+  },
+  "dependencies": {
+    "adm-zip": "0.4.7",
+    "kew": "0.5.0",
+    "ncp": "~2.0.0",
+    "npmconf": "2.1.1",
+    "mkdirp": "0.5.0",
+    "progress": "1.1.8",
+    "request": "2.55.0",
+    "request-progress": "0.3.1",
+    "rimraf": "~2.3.2",
+    "which": "~1.0.9"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gskachkov/node-javascriptcore.git"
+  },
+  "author": "Alexander Skachkov <gskachkov@gmail.com> (https://github.com/gskachkov)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/gskachkov/node-javascriptcore/issues"
+  },
+  "homepage": "https://github.com/gskachkov/node-javascriptcore#readme"
+}
