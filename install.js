@@ -49,7 +49,7 @@ process.on('exit', function () {
 process.env.PATH = helper.cleanPath(originalPath)
 
 var libPath = path.join(__dirname, 'lib')
-var pkgPath = path.join(libPath, 'bin')
+var pkgPath = path.join(libPath, 'jsc', 'bin')
 var jscPath = null
 var tmpPath = null
 
