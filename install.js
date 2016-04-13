@@ -113,9 +113,9 @@ whichDeferred.promise
     if (customDownloadUrl) {
       downloadUrl = customDownloadUrl
     } else if (process.platform === 'linux' && process.arch === 'x64') {
-      downloadUrl += 'linux-x86_64.tar.bz2'
+      downloadUrl += 'linux-x86_64/jsc.tar.bz2'
     } else if (process.platform === 'linux' && process.arch == 'ia32') {
-      downloadUrl += 'linux-i686.tar.bz2'
+      downloadUrl += 'linux-i686/jsc.tar.bz2'
     } else if (process.platform === 'darwin' || process.platform === 'openbsd' || process.platform === 'freebsd') {
       downloadUrl += 'macosx/jsc.zip'
     } else if (process.platform === 'win32') {
